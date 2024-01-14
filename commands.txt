@@ -1,0 +1,9 @@
+curl -F "file=@hello.py;filename=hello.py" https://example.com/upload/ ==> file transfer for upload endpoint
+
+pkill -9 -f hello.py ==> process kill for linux
+
+rm 1_1f598452d306_resim.png ==> remove file for linux
+
+python3 hello.py ==> run python file
+
+curl -L "https://example.com/download" > "output.py"; ==> download file from download endpoint (output name can be customized)
